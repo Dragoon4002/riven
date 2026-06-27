@@ -1,0 +1,11 @@
+{
+  "name": "@riven/payment-engine",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@riven/types": "workspace:*",
+    "@riven/arc-client": "workspace:*"
+  }
+}

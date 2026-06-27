@@ -1,0 +1,15 @@
+{
+  "name": "@riven/workers",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "engine": "bun run engine-worker.ts",
+    "github": "bun run github-worker.ts"
+  },
+  "dependencies": {
+    "@riven/payment-engine": "workspace:*",
+    "@riven/arc-client": "workspace:*",
+    "@riven/db": "workspace:*",
+    "@riven/types": "workspace:*"
+  }
+}

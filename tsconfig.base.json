@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@riven/types": ["./packages/types/src/index.ts"],
+      "@riven/db": ["./packages/db/src/index.ts"],
+      "@riven/arc-client": ["./packages/arc-client/src/index.ts"],
+      "@riven/x402": ["./packages/x402/src/index.ts"],
+      "@riven/payment-engine": ["./packages/payment-engine/src/index.ts"],
+      "@riven/agents": ["./packages/agents/src/index.ts"]
+    }
+  }
+}

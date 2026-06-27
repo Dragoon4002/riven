@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun *)",
+      "Bash(bunx *)",
+      "Bash(bun x *)",
+      "Bash(docker compose *)",
+      "Bash(NEON_DATABASE_URL=* bunx drizzle-kit *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(cat *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git status)",
+      "Bash(./node_modules/.bin/tsc --build packages/types packages/db packages/arc-client packages/x402 packages/payment-engine packages/agents)",
+      "Bash(node_modules/.bun/typescript@5.9.3/node_modules/typescript/bin/tsc --build packages/types packages/db packages/arc-client packages/x402 packages/payment-engine packages/agents)",
+      "Bash(node_modules/.bun/typescript@5.9.3/node_modules/typescript/bin/tsc --build packages/agents)",
+      "Bash(mkdir -p /home/sounak/programming/silonelabs/riven/apps/web/app/api/sources/\\\\[id\\\\])"
+    ],
+    "additionalDirectories": [
+      "/home/sounak/programming/silonelabs/riven/apps/web/app/api/sources"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "riven",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "bun run --cwd apps/web dev",
+    "build": "bun run --cwd apps/web build",
+    "typecheck": "tsc --build packages/types packages/db packages/arc-client packages/x402 packages/payment-engine packages/agents",
+    "typecheck:web": "bun run --cwd apps/web build"
+  }
+}
